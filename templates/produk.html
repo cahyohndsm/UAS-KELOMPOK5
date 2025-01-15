@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - Penjualan Minimarket</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Produk Kami</h1>
+        <p>Berikut adalah daftar produk yang kami tawarkan:</p>
+        <ul class="list-unstyled">
+            <li class="media mb-4">
+                <img src="{{ url_for('static', filename='img/lemineral.jpg') }}" class="mr-3" alt="LE MINERAL" style="width: 100px; height: auto;">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">LE MINERAL</h5>
+                    Rp 4.000
+                </div>
+            </li>
+            <li class="media mb-4">
+                <img src="{{ url_for('static', filename='img/indomie.jpg') }}" class="mr-3" alt="INDOMIE" style="width: 100px; height: auto;">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">INDOMIE</h5>
+                    Rp 4.000
+                </div>
+            </li>
+            <li class="media mb-4">
+                <img src="{{ url_for('static', filename='img/yogurt.jpg') }}" class="mr-3" alt="YOGURT" style="width: 100px; height: auto;">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">YOGURT</h5>
+                    Rp 15.000
+                </div>
+            </li>
+            <li class="media mb-4">
+                <img src="{{ url_for('static', filename='img/rinso.jpg') }}" class="mr-3" alt="RINSO" style="width: 100px; height: auto;">
+                <div class="media-body">
+                    <h5 class="mt-0 mb-1">RINSO</h5>
+                    Rp 20.000
+                </div>
+            </li>
+        </li>
+        <li class="media mb-4">
+            <img src="{{ url_for('static', filename='img/coklat.jpg') }}" class="mr-3" alt="COKLAT" style="width: 100px; height: auto;">
+            <div class="media-body">
+                <h5 class="mt-0 mb-1">COKLAT SILVERQUEEN</h5>
+                Rp 25.000
+            </div>
+        </li>
+    </li>
+    <li class="media mb-4">
+        <img src="{{ url_for('static', filename='img/telur.jpg') }}" class="mr-3" alt="TELUR / KG" style="width: 100px; height: auto;">
+        <div class="media-body">
+            <h5 class="mt-0 mb-1">TELUR / KG</h5>
+            Rp 16.000
+        </div>
+    </li>
+</li>
+<li class="media mb-4">
+    <img src="{{ url_for('static', filename='img/teh.jpg') }}" class="mr-3" alt="TEH" style="width: 100px; height: auto;">
+    <div class="media-body">
+        <h5 class="mt-0 mb-1">TEH</h5>
+        Rp 7.000
+    </div>
+</li>
+        </ul>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Kembali ke Beranda</a>
+    </div>
+
+    <footer class="text-center mt-5">
+        <div class="container">
+            <p>© 2025 UAS KELOMPOK 5</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
